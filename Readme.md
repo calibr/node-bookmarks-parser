@@ -23,6 +23,8 @@ parse('<title>Pocket Export</title><h1>Unread</h1>'+
 
 ```
 
+`parse` function obtain two parameters - text of a bookmarks export file and callback.
+
 Second parameter returned in callback is object which has fields:
 - `parser` - `netscape` or `pocket`
 - `bookmarks` - an array of bookmarks
