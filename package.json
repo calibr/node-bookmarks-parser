@@ -4,7 +4,7 @@
   "description": "Parse bookmarks files of some services",
   "main": "lib/bookmarks-parser.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "author": "calibr",
   "repository": {
