@@ -1,0 +1,19 @@
+{
+  "node": true,
+  "undef": true,
+  "indent": 2,
+  "predef": [
+    "document",
+    "Components",
+    "dump",
+    "addEventListener",
+    "addMessageListener",
+    "removeMessageListener",
+    "sendAsyncMessage",
+    "content",
+    "fvd_speed_dial_Async",
+    "fvd_speed_dial_gFVDSSDSettings",
+    "fvd_speed_dial_Config",
+    "fvd_speed_dial_AnnoyingProtection"
+  ]
+}
