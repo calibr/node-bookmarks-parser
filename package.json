@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "async": "^0.9.0",
-    "jsdom": "^4.0.2"
+    "jsdom": "3.x.x"
   },
   "devDependencies": {
     "mocha": "^2.1.0",

@@ -26,4 +26,12 @@ describe("Parse bookmarks", function() {
       done();
     });
   });
+
+  it("xml file should raise error", function(done) {
+    var xml = fs.readFileSync(__dirname + "/files/test.xml", "utf-8");
+    parse(xml, function(err, res) {
+      should.exists(err);
+      done();
+    });
+  });
 });
