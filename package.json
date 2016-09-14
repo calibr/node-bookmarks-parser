@@ -1,6 +1,6 @@
 {
   "name": "bookmarks-parser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Parse bookmarks files of some services",
   "main": "lib/bookmarks-parser.js",
   "scripts": {
