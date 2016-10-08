@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/calibr/node-bookmarks-parser.svg?branch=master)](https://travis-ci.org/calibr/node-bookmarks-parser)
+
 #Parse bookmarks files
 
 This library can parse formats listed below:
