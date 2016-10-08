@@ -1,6 +1,6 @@
 #Parse bookmarks files
 
-This library now can parse formats listed below:
+This library can parse formats listed below:
 
 - Pocket(http://getpocket.com)
 - Netscape Bookmarks(Firefox, Google Chrome, ...)
@@ -23,17 +23,17 @@ parse('<title>Pocket Export</title><h1>Unread</h1>'+
 
 ```
 
-`parse` function obtain two parameters - text of a bookmarks export file and callback.
+`parse` function receives two parameters - text of a exported bookmarks file and callback.
 
-Second parameter returned in callback is object which has fields:
+Second parameter returned in the callback is an object with fields:
 - `parser` - `netscape` or `pocket`
 - `bookmarks` - an array of bookmarks
 
-Each bookmark is object which has field:
+Each bookmark is an object with fields:
 - `type` - `folder` or `bookmark`
-- `title` - title of bookmark or folder
+- `title` - title of a bookmark or a folder
 - `url` - URL only for bookmarks
-- `children` - array of child bookmarks, only for folders
+- `children` - array of children bookmarks, only for folders
 
 See more examples in tests.
 
