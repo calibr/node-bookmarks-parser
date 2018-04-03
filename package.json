@@ -1,9 +1,11 @@
 {
   "name": "bookmarks-parser",
-  "version": "0.1.2",
-  "description": "Parse bookmarks files of some services",
+  "version": "1.0.0",
+  "description": "Parse Firefox/Chrome HTML bookmarks files",
   "main": "lib/bookmarks-parser.js",
-  "files": ["lib/"],
+  "files": [
+    "lib/"
+  ],
   "scripts": {
     "test": "mocha test"
   },

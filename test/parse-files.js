@@ -27,6 +27,30 @@ describe("Parse bookmarks", function() {
     });
   });
 
+  it("netscape complex file", function(done) {
+    var html = fs.readFileSync(__dirname + "/files/netscape_complex.html", "utf-8");
+    var expected = fs.readFileSync(__dirname + "/files/netscape_complex.json", "utf-8");
+    parse(html, function(err, res) {
+      should.not.exists(err);
+      res.parser.should.equal("netscape");
+      var result = JSON.stringify(res.bookmarks, null, 2)
+      result.should.equal(expected);
+      done();
+    });
+  });
+
+  it("chrome bookmarks file", function(done) {
+    var html = fs.readFileSync(__dirname + "/files/chrome_bookmarks.html", "utf-8");
+    var expected = fs.readFileSync(__dirname + "/files/chrome_bookmarks.json", "utf-8");
+    parse(html, function(err, res) {
+      should.not.exists(err);
+      res.parser.should.equal("netscape");
+      var result = JSON.stringify(res.bookmarks, null, 2)
+      result.should.equal(expected);
+      done();
+    });
+  });
+
   it("xml file should raise error", function(done) {
     var xml = fs.readFileSync(__dirname + "/files/test.xml", "utf-8");
     parse(xml, function(err, res) {

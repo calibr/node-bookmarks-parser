@@ -1,0 +1,146 @@
+[
+  {
+    "type": "folder",
+    "title": "Bookmarks Toolbar",
+    "add_date": "1510173153",
+    "last_modified": "1522698183",
+    "ns_root": "toolbar",
+    "children": [
+      {
+        "type": "folder",
+        "title": "English",
+        "add_date": "1517563487",
+        "last_modified": "1519468263",
+        "ns_root": null,
+        "children": [
+          {
+            "type": "bookmark",
+            "url": "https://books.google.com/books",
+            "title": "Proficiency in Grammar and Language for CXC - Louis A. Forde, L. G. Marsh - Google Книги",
+            "add_date": "1517563491"
+          },
+          {
+            "type": "bookmark",
+            "url": "https://blogs.transparent.com/english/english-vocabulary-for-getting-a-haircut/",
+            "title": "English vocabulary for getting a haircut | English Language Blog",
+            "add_date": "1519468257"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "title": "Addons Debug",
+        "add_date": "1518345388",
+        "last_modified": "1519044862",
+        "ns_root": null,
+        "children": [
+          {
+            "type": "bookmark",
+            "url": "http://www.chromium.org/for-testers/enable-logging",
+            "title": "How to enable logging - The Chromium Projects",
+            "add_date": "1518345397"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "title": "ML",
+        "add_date": "1518387873",
+        "last_modified": "1521717615",
+        "ns_root": null,
+        "children": [
+          {
+            "type": "bookmark",
+            "url": "https://randomprobabilist.wordpress.com/2017/07/24/cs224d-deep-learning-for-natural-language-processing-assignment-1-qn-3/",
+            "title": "CS224 Deep Learning NLP (3): Word2vec – random probabilist",
+            "add_date": "1518387866"
+          },
+          {
+            "type": "bookmark",
+            "url": "https://github.com/Twice22/CS224n-solutions",
+            "title": "Twice22/CS224n-solutions: Solutions for CS224n course from Stanford University: Natural Language Processing with Deep Learning",
+            "add_date": "1518388024"
+          },
+          {
+            "type": "bookmark",
+            "url": "http://www.amendgit.com/2017/cs224n-assignment-1/",
+            "title": "CS224N Assignment 1",
+            "add_date": "1518389746"
+          },
+          {
+            "type": "bookmark",
+            "url": "http://pytorch.org/tutorials/intermediate/char_rnn_generation_tutorial.html",
+            "title": "Generating Names with a Character-Level RNN — PyTorch Tutorials 0.3.0.post4 documentation",
+            "add_date": "1520040408"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "title": "Other Bookmarks",
+    "add_date": "1510173153",
+    "last_modified": "1522698183",
+    "ns_root": "unsorted",
+    "children": [
+      {
+        "type": "bookmark",
+        "url": "https://pouchdb.com/",
+        "title": "PouchDB, the JavaScript Database that Syncs!",
+        "add_date": "1510864244"
+      },
+      {
+        "type": "bookmark",
+        "url": "http://dictionary.cambridge.org/grammar/british-grammar/about-adjectives-and-adverbs/adjectives-order",
+        "title": "Adjectives: order - English Grammar Today - Cambridge Dictionary",
+        "add_date": "1511000590"
+      }
+    ]
+  },
+  {
+    "title": "Menu",
+    "children": [
+      {
+        "type": "bookmark",
+        "url": "place:type=6&sort=14&maxResults=10",
+        "title": "Recent Tags",
+        "add_date": "1510173153"
+      },
+      {
+        "type": "folder",
+        "title": "Mozilla Firefox",
+        "add_date": "1510173153",
+        "last_modified": "1510173153",
+        "ns_root": null,
+        "children": [
+          {
+            "type": "bookmark",
+            "url": "https://www.mozilla.org/en-US/about/",
+            "title": "About Us",
+            "add_date": "1510173153"
+          }
+        ]
+      },
+      {
+        "type": "bookmark",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel",
+        "title": "BroadcastChannel - Web APIs | MDN",
+        "add_date": "1510848787"
+      },
+      {
+        "type": "bookmark",
+        "url": "https://gitter.im/y-js/yjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge",
+        "title": "y-js/yjs - Gitter",
+        "add_date": "1510851424"
+      },
+      {
+        "type": "bookmark",
+        "url": "https://github.com/dominictarr/crdt",
+        "title": "dominictarr/crdt: Commutative Replicated Data Types for easy collaborative/distributed systems.",
+        "add_date": "1511386966"
+      }
+    ],
+    "ns_root": "menu"
+  }
+]

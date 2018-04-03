@@ -1,0 +1,59 @@
+[
+  {
+    "type": "folder",
+    "title": "Bookmarks Bar",
+    "add_date": "1512058172",
+    "last_modified": "1522775181",
+    "ns_root": "toolbar",
+    "children": [
+      {
+        "type": "bookmark",
+        "url": "http://yahoo.com/",
+        "title": "First Level Bookmarks Bar bookmark",
+        "add_date": "1522775169"
+      },
+      {
+        "type": "folder",
+        "title": "First level bookmark bar folder",
+        "add_date": "1522775181",
+        "last_modified": "1522775193",
+        "ns_root": null,
+        "children": [
+          {
+            "type": "bookmark",
+            "url": "http://bing.com/",
+            "title": "Bookmarks bar second level bookmark",
+            "add_date": "1522775193"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Menu",
+    "children": [
+      {
+        "type": "folder",
+        "title": "First level other bookmarks folder",
+        "add_date": "1522775208",
+        "last_modified": "1522775257",
+        "ns_root": null,
+        "children": [
+          {
+            "type": "bookmark",
+            "url": "http://msn.com/",
+            "title": "Second level other bookmarks bookmark",
+            "add_date": "1522775257"
+          }
+        ]
+      },
+      {
+        "type": "bookmark",
+        "url": "http://reddit.com/",
+        "title": "First level other bookmarks bookmark",
+        "add_date": "1522775228"
+      }
+    ],
+    "ns_root": "menu"
+  }
+]
