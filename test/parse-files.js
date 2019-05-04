@@ -58,4 +58,11 @@ describe("Parse bookmarks", function() {
       done();
     });
   });
+
+  it("can't parse by any processors", function(done) {
+    parse('something', function(err, res) {
+      should.exists(err);
+      done();
+    });
+  });
 });
